@@ -1,0 +1,76 @@
+
+
+  .container {
+    width: 300px;
+    padding: 50%;
+    margin: 0 auto;
+    background: #F5F5F5;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    size: 10;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .input-group {
+    display: 40 px;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .container2
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .Nameusername{
+      display: flex;
+      align-items: center;
+  }
+  .section-label
+  {
+    font-family: 'Simonetta';
+      font-style: bold;
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 15px;
+      color: rgba(7, 24, 81, 0.64);
+  }
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+button{
+        width: 300px;
+        background-image: linear-gradient(rgb(65, 65, 190), rgb(115, 33, 174));
+        padding: 10px;
+        transition: background-color 0.3s;
+        font-style: 'Simonetta';
+        border-radius: 12px;
+        color: #f2f2f2;
+}
+  button:hover {
+    background-image:  linear-gradient(rgb(36, 36, 125), rgb(87, 33, 126));
+  }
